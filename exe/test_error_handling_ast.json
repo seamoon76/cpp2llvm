@@ -1,0 +1,91 @@
+{
+    "name": "TopAST",
+    "children": [
+        {
+            "name": "FuncDef",
+            "children": [
+                {
+                    "name": "DeclarationNode",
+                    "children": [
+                        {
+                            "name": "DeclFunction",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "MultiBlock",
+                    "children": [
+                        {
+                            "name": "DeclarationNode",
+                            "children": [
+                                {
+                                    "name": "Identifier",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Constant",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "FuncCall",
+                            "children": [
+                                {
+                                    "name": "FuncCall",
+                                    "children": [
+                                        {
+                                            "name": "Identifier",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "ContentList",
+                                            "children": [
+                                                {
+                                                    "name": "Constant",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ContentList",
+                                    "children": [
+                                        {
+                                            "name": "Constant",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "DeclarationNode",
+                            "children": [
+                                {
+                                    "name": "Identifier",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Constant",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ControlLogic",
+                            "children": [
+                                {
+                                    "name": "Constant",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
