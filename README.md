@@ -2,15 +2,15 @@
 
 Qi Ma ; Xinran Yu ;Junyu  Xu 
 
-## Description of topic selection
+## Introduction
 
-Source language C++, target language LLVM IR, using python-lex-yacc. Only part of the syntax of C++ is implemented.
+This is a compiler from cpp to llvm intermediate representation using python-lex-yacc. Only part of the cpp syntax is implemented.
 
 ## Configuration Environment
 
 Both are encoded in UTF-8. If you only want to generate IR and not run IR, skip the "Method 1" section and see the configuration environment method (2)
 
-### method 1
+### Method 1
 
 OS: ubuntu 20.04
 
