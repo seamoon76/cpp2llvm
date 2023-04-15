@@ -28,7 +28,7 @@ The llvm version we installed on ubuntu20.04 is 10.0.0, and the clang version is
 
 #### Install llvmlite
 
-Install the llvmlite corresponding to the llvm version, the corresponding table can be seen [here] (https://pypi.org/project/llvmlite/), for example, check the table to know that llvm10.0.0 corresponds to llvmlite 0.6.0
+Install the llvmlite corresponding to the llvm version, the corresponding table can be seen [here](https://pypi.org/project/llvmlite/), for example, check the table to know that llvm10.0.0 corresponds to llvmlite 0.6.0
 
 ```
 wget https://github.com/numba/llvmlite/archive/refs/tags/v0.36.0.tar.gz
